@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_admin"
+    app:startDestination="@id/admin_profile_fragment">
+
+    <fragment
+        android:id="@+id/admin_profile_fragment"
+        android:name="com.example.project.AdminProfile.Adminprofile"
+        android:label="Admin Profile"
+        tools:layout="@layout/fragment_admin_profile"/>
+
+    <fragment
+        android:id="@+id/add_admin_fragment"
+        android:name="com.example.project.AddAdmin.Add_Admin"
+        android:label="Add Admin"
+        tools:layout="@layout/fragment_add_admin" />
+
+    <fragment
+        android:id="@+id/view_all_orders_fragment"
+        android:name="com.example.project.AllOrders.ViewAllOrders"
+        android:label="View All Orders"
+        tools:layout="@layout/fragment_view_all_orders" />
+
+    <fragment
+        android:id="@+id/add_special_offers_fragment"
+        android:name="com.example.project.offeser.AddSpecialOfferActivity"
+        android:label="Add Special Offers"
+        tools:layout="@layout/fragment_add_special_offers" />
+
+    <fragment
+        android:id="@+id/logout_fragment"
+        android:name="com.example.project.Logout.LogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
+
+    <fragment
+        android:id="@+id/order_statistics_fragment"
+        android:name="com.example.project.OrderStatisticsFragment"
+        android:label="Order Statistics"
+        tools:layout="@layout/fragment_order_statistics" />
+
+</navigation>

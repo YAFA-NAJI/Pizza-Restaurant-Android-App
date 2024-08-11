@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Size Spinner -->
+    <Spinner
+        android:id="@+id/sizeSpinner"
+        android:layout_width="385dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#F44336" />
+
+    <!-- Quantity Spinner -->
+    <Spinner
+        android:id="@+id/quantitySpinner"
+        android:layout_width="385dp"
+        android:layout_height="87dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#4CAF50" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#FF9800"
+        android:text="Submit" />
+
+</LinearLayout>

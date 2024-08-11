@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_pizza_name"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#4CAF50"
+        android:text="Pizza Name:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_size"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#65B868"
+        android:text="Size:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#8AC68C"
+        android:text="Quantity:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_order_date_time"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#C4EAC6"
+        android:text="Order Date and Time:"
+        android:textSize="20sp" />
+
+</LinearLayout>

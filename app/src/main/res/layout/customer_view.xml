@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF7448"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="193dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="196dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/firstNameTextView"
+        android:layout_width="195dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lastNameTextView"
+        android:layout_width="194dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/passwordTextView"
+        android:layout_width="192dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="615dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#060607"
+        android:text="Edit Info"
+        android:textSize="34sp" />
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<!-- AddSpecialOfferActivityLayout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4FF81"
+    android:padding="16dp">
+
+    <!-- Spinner for selecting pizza type -->
+    <Spinner
+        android:id="@+id/spinnerPizzaType"
+        android:layout_width="395dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="16dp"
+        android:entries="@array/pizza_types" />
+
+    <!-- Spinner for selecting pizza size -->
+    <Spinner
+        android:id="@+id/spinnerPizzaSize"
+        android:layout_width="385dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/spinnerPizzaType"
+        android:layout_marginBottom="16dp"
+        android:entries="@array/size_options" />
+
+    <!-- EditText for offer period -->
+    <EditText
+        android:id="@+id/editTextOfferPeriod"
+        android:layout_width="374dp"
+        android:layout_height="92dp"
+        android:layout_below="@id/spinnerPizzaSize"
+        android:layout_marginBottom="16dp"
+        android:hint="Offer Period (in days)"
+        android:inputType="number" />
+
+    <!-- EditText for total price -->
+    <EditText
+        android:id="@+id/editTextTotalPrice"
+        android:layout_width="395dp"
+        android:layout_height="102dp"
+        android:layout_below="@id/editTextOfferPeriod"
+        android:layout_marginBottom="16dp"
+        android:hint="Total Price"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonAddOffer"
+        android:layout_width="221dp"
+        android:layout_height="124dp"
+        android:layout_below="@id/editTextTotalPrice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="199dp"
+        android:backgroundTint="#0A090B"
+        android:text="Add Offer"
+        android:textSize="34sp" />
+
+
+</RelativeLayout>

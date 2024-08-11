@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/offerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/offer_name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/sizeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:text="@string/select_size"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+
+    <TextView
+        android:id="@+id/durationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Duration"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <!-- TextView لعرض السعر الإجمالي -->
+    <TextView
+        android:id="@+id/totalPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_price"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/addToFavoritesButton"
+        android:layout_width="169dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/add_to_favorites"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        tools:backgroundTint="#FF8A80" />
+
+    <Button
+        android:id="@+id/orderButton"
+        android:layout_width="116dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/order"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        tools:backgroundTint="#F6420B" />
+
+
+</LinearLayout>

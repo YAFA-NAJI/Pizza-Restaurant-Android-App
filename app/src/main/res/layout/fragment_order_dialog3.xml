@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="248dp"
+        android:layout_height="44dp"
+        android:text="Select Size:"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/sizeSpinner"
+        android:layout_width="394dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#E41616" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="242dp"
+        android:layout_height="44dp"
+        android:layout_below="@id/sizeSpinner"
+        android:layout_marginTop="16dp"
+        android:text="Select Quantity:"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/quantitySpinner"
+        android:layout_width="370dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#4CAF50" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="183dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/quantitySpinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Submit"
+        android:textSize="34sp" />
+
+</RelativeLayout>

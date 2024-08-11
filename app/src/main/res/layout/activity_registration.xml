@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/imageViewBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pizza_interfaca"
+        android:alpha="0.5" />
+
+    <!-- Login Button -->
+
+    <!-- Sign Up Button -->
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="316dp"
+        android:layout_height="210dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp"
+        android:backgroundTint="#FF5722"
+        android:text="Login"
+        android:textSize="60sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="316dp"
+        android:layout_height="198dp"
+        android:layout_below="@id/buttonLogin"
+        android:layout_marginTop="217dp"
+        android:backgroundTint="#FF5722"
+        android:text="Sign Up"
+        android:textSize="60sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

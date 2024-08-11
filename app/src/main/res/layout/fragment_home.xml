@@ -1,0 +1,60 @@
+<!-- fragment_home.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeFragment">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="403dp"
+        android:src="@drawable/header" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_centerHorizontal="true"
+        android:background="#F44336"
+        android:foregroundGravity="bottom|center_horizontal"
+        android:gravity="bottom|fill"
+        android:text="Gaza Restaurant"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="37dp"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/location_icon_description"
+        android:src="@drawable/location" />
+
+    <View
+        android:layout_width="8dp"
+        android:layout_height="match_parent" />
+
+    <!-- Text for location -->
+
+    <TextView
+        android:id="@+id/textView_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Palestine - Gaza - Rafah"
+        android:textColor="#F44336"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="383dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-54dp"
+        android:text="Welcome to Gaza Restaurant, where every dish is a masterpiece crafted with passion and care! Our doors are open every day from 9:00 AM to 9:00 PM, inviting you to indulge in a culinary journey unlike any other. From savory starters to decadent desserts, our menu is designed to tantalize your taste buds and leave you craving for more.&#xA;&#xA;At Gaza Restaurant, we believe in creating moments of culinary bliss for our guests, where every bite is an expression of our commitment to excellence. Join us and discover why we&apos;re renowned as the most delicious and delightful restaurant in the world. We can&apos;t wait to welcome you and treat you to an unforgettable dining experience!"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>

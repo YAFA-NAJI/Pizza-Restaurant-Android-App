@@ -1,0 +1,27 @@
+<!-- list_item_order.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextView to display pizza name -->
+    <TextView
+        android:id="@+id/textViewPizzaName"
+        android:layout_width="154dp"
+        android:layout_height="66dp"
+        android:text="Pizza Name"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <!-- TextView to display customer name -->
+    <TextView
+        android:id="@+id/textViewCustomerName"
+        android:layout_width="159dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="8dp"
+        android:text="Customer Name"
+        android:textColor="#666"
+        android:textSize="24sp" />
+
+</LinearLayout>

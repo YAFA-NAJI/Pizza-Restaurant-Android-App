@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4FF81"
+    tools:context=".Add_Admin">
+
+    <!-- First Name Field -->
+    <EditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:hint="First Name"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <!-- First Name Icon -->
+    <ImageView
+        android:id="@+id/imageViewFirstName"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/editTextFirstName"
+        android:layout_toStartOf="@id/editTextFirstName"
+        android:src="@drawable/name" />
+
+    <!-- Last Name Field -->
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextFirstName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <!-- Last Name Icon -->
+    <ImageView
+        android:id="@+id/imageViewLastName"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/editTextLastName"
+        android:layout_toStartOf="@id/editTextLastName"
+        android:src="@drawable/name" />
+
+    <!-- Email Field -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextLastName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <!-- Email Icon -->
+    <ImageView
+        android:id="@+id/imageViewEmail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/editTextEmail"
+        android:layout_toStartOf="@id/editTextEmail"
+        android:src="@drawable/email" />
+
+    <!-- Phone Number Field -->
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="307dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/editTextEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <!-- Phone Icon -->
+    <ImageView
+        android:id="@+id/imageViewPhone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/editTextPhone"
+        android:layout_toStartOf="@id/editTextPhone"
+        android:src="@drawable/phone" />
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPhone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <!-- Password Icon -->
+    <ImageView
+        android:id="@+id/imageViewPassword"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/editTextPassword"
+        android:layout_toStartOf="@id/editTextPassword"
+        android:src="@drawable/password" />
+
+    <!-- Confirm Password Field -->
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <!-- Confirm Password Icon -->
+    <ImageView
+        android:id="@+id/imageViewConfirmPassword"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/editTextConfirmPassword"
+        android:layout_toStartOf="@id/editTextConfirmPassword"
+        android:src="@drawable/confirmpassword" />
+
+    <!-- Gender Spinner -->
+    <Spinner
+        android:id="@+id/spinnerGender"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextConfirmPassword"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/gender_options"
+        android:layout_marginTop="16dp" />
+
+    <!-- Gender Icon -->
+    <ImageView
+        android:id="@+id/imageViewGender"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/spinnerGender"
+        android:layout_toStartOf="@id/spinnerGender"
+        android:src="@drawable/gender" />
+
+    <!-- Add Admin Button -->
+    <Button
+        android:id="@+id/btnAddAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerGender"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#0A090B"
+        android:text="Add Admin" />
+
+</RelativeLayout>

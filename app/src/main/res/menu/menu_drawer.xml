@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_admin_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Admin Profile" />
+        <item
+            android:id="@+id/nav_add_admin"
+            android:icon="@drawable/ic_add"
+            android:title="Add Admin" />
+        <item
+            android:id="@+id/nav_view_all_orders"
+            android:icon="@drawable/orders"
+            android:title="View All Orders" />
+        <item
+            android:id="@+id/nav_add_special_offers"
+            android:icon="@drawable/offer"
+            android:title="Add Special Offers" />
+        <item
+            android:id="@+id/nav_order_statistics"
+            android:icon="@drawable/ic_statistics"
+            android:title="Order Statistics" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+        <!-- Add more menu items as needed -->
+    </group>
+</menu>

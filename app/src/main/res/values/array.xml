@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="drawer_options">
+        <item>Home</item>
+        <item>Pizza Menu</item>
+        <item>Your Orders</item>
+        <item>Your Favorites</item>
+        <item>Special Offers</item>
+        <item>Profile</item>
+        <item>Call us or Find us</item>
+        <item>Logout</item>
+    </string-array>
+
+</resources>

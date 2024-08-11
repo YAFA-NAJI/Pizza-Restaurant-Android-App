@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4FF81"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Background Image -->
+
+    <!-- FrameLayout for dynamic content -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="372dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/adminn" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <!-- Button to view personal information -->
+    <Button
+        android:id="@+id/btnViewPersonalInfo"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:backgroundTint="#030304"
+        android:text="View Personal Information"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <!-- Button to update information -->
+    <Button
+        android:id="@+id/btnUpdateInfo"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:backgroundTint="#0A090B"
+        android:text="Update Information"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp" />
+
+</LinearLayout>

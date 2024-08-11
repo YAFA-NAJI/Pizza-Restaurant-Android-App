@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F47D57"
+    android:gravity="center"
+
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="293dp"
+        android:layout_height="139dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#030304"
+        android:onClick="callRestaurant"
+        android:text="Call Us"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btn_find"
+        android:layout_width="261dp"
+        android:layout_height="118dp"
+        android:layout_below="@id/btn_call"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#0B0C0C"
+        android:onClick="findRestaurant"
+        android:text="Find Us"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btn_email"
+        android:layout_width="297dp"
+        android:layout_height="142dp"
+        android:layout_below="@id/btn_find"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#0A0A0B"
+        android:onClick="sendEmail"
+        android:text="Send Email"
+        android:textSize="40sp" />
+
+</RelativeLayout>

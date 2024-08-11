@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4FF81"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/statisticsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Statistics"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- TableLayout for the statistics -->
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <!-- Table header -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:padding="8dp"
+                android:text="Pizza"
+                android:textStyle="bold" />
+
+            <TextView
+                android:text="Orders"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+
+            <TextView
+                android:text="Total Price Per Order"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <!-- TextView for total price -->
+    <TextView
+        android:id="@+id/totalPriceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:text="Total Price: "
+        android:textStyle="bold" />
+
+</LinearLayout>

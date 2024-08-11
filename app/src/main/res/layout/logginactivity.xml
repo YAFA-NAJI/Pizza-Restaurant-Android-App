@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCFFCC"
+    tools:context=".logginActivity">
+
+    <!-- Email Field -->
+    <ImageView
+        android:id="@+id/imageViewuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/editTextEmail"
+        android:layout_marginStart="-377dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@id/editTextEmail"
+        android:src="@drawable/user" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/toggleButtonShowPassword"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/editTextPassword"
+        android:layout_alignBottom="@id/editTextPassword"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#00FFFFFF"
+        android:textOff="Show"
+        android:textOn="Hide"
+        android:textSize="10sp" />
+
+    <!-- Message Icon -->
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Password"
+
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Password Icon -->
+    <!-- Remember Me Checkbox -->
+    <CheckBox
+        android:id="@+id/checkBoxRememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Remember Me"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBoxRememberMe"
+        android:layout_marginTop="225dp"
+        android:backgroundTint="#009688"
+        android:text="Login"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="35dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/email" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="47dp"
+        android:layout_height="284dp"
+        app:srcCompat="@drawable/password" />
+
+
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLogin"
+        android:layout_marginTop="134dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Sign Up"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="600dp"
+
+        android:text="If you don't have an account go here"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>
