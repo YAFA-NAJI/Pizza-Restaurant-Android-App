@@ -1,6 +1,12 @@
 ﻿# Pizza-Restaurant-Android-App
-[**Description**]
+**### Description**
 This Android app is designed for a pizza restaurant. It allows users to view the pizza menu, place orders, view their favorites, and more. Admins can manage orders and special offers.
+
+**### Prerequisites**
+
+- Android Studio
+
+- Java Development Kit (JDK)
 
 ![Screenshot 2024-08-11 161218](https://github.com/user-attachments/assets/4bb9663f-7851-470f-b9d4-160b61a35b2c)
 ![Screenshot 2024-08-11 161248](https://github.com/user-attachments/assets/5b303841-90ba-4a15-910a-f1d3186d8b90)
